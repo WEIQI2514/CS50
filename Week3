@@ -44,3 +44,11 @@ repeat n-1 times
 if no swaps
 	quit	
 ## recursion
+## merge sort
+if only one number
+	quit
+else
+sort left half of numbers
+sort right half of numbers
+merge sorted halves
+theta(n log n);
