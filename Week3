@@ -1,0 +1,43 @@
+# Algprithms
+## big O notation
+O(n) the upper bound of algorithms running time
+omega the lower bound of algorithms running time
+theta the upper bound of algorithms running time = the lower bound
+
+##binary search
+if no door
+return false
+if number is behind door 
+return true
+if number < middle door
+search left
+if number > middle door
+search right
+
+if no door
+return false
+if number is behind doors[middle] 
+return true
+if number <doors[middle] 
+search doors[0] through doors[middle -1]
+if number > doors[middle] 
+search doors[middle -1] through doors[n-1]
+binary search O(log n) omega(1)
+
+##data structure
+tyoedef structure
+{
+	string name;
+	string bumber;
+}
+person;
+
+selection sort
+for i from 0 to n-1
+	Find smallest number between numbers[i] and numbers[i-1]
+	swap smallest number with numbers[i]	
+bubble sort
+repeat n-1 times
+	for i from 0 to n-2
+			if number[i] and number[i+1] out of order
+			swap them
