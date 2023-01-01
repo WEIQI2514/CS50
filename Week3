@@ -39,5 +39,8 @@ for i from 0 to n-1
 bubble sort
 repeat n-1 times
 	for i from 0 to n-2
-			if number[i] and number[i+1] out of order
+		if number[i] and number[i+1] out of order
 			swap them
+if no swaps
+	quit	
+## recursion
